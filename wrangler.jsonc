@@ -1,7 +1,10 @@
 {
-  "name": "my-spa",
   "main": "src/index.js",
-  "compatibility_date": "2025-01-01",
+  "name": "spinx-aviation",
+  "compatibility_date": "2025-03-25",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
   "assets": {
     "directory": "./out",
     "binding": "ASSETS"
