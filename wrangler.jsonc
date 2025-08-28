@@ -6,8 +6,4 @@
     "nodejs_compat"
   ],
   "pages_build_output_dir": "./dist",
-  "assets": {
-    "directory": "./dist",
-    "binding": "ASSETS"
-  }
 }
