@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-10 container mx-auto px-6 pb-16 text-center text-primary-foreground">
+      <div className="relative z-10 container mx-auto px-6 pb-16 my-4 text-center text-primary-foreground">
         <div className="max-w-4xl mx-auto">
           <p className="text-lg sm:text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed">
             WE ARE AN EXPERT TEAM COMMITTED TO REDUCE

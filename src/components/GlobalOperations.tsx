@@ -51,7 +51,7 @@ const GlobalOperations = () => {
             {/* Two Column Layout */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
               {/* Problem Statement Section */}
-              <div className="bg-background/80 backdrop-blur-md rounded-2xl p-8 border border-primary-foreground/20 hover:shadow-elegant transition-all duration-300 animate-fade-in">
+              <div className="bg-background/80 backdrop-blur-md rounded-2xl p-8 my-4 border border-primary-foreground/20 hover:shadow-elegant transition-all duration-300 animate-fade-in">
                 <div className="flex items-center justify-center mb-6">
                   <div className="bg-destructive/20 p-4 rounded-full">
                     <AlertTriangle className="w-12 h-12 text-destructive" />
@@ -74,7 +74,7 @@ const GlobalOperations = () => {
               </div>
 
               {/* Solution Section */}
-              <div className="bg-background/80 backdrop-blur-md rounded-2xl p-8 border border-primary-foreground/20 hover:shadow-elegant transition-all duration-300 animate-fade-in">
+              <div className="bg-background/80 backdrop-blur-md rounded-2xl p-8 my-4 border border-primary-foreground/20 hover:shadow-elegant transition-all duration-300 animate-fade-in">
                 <div className="flex items-center justify-center mb-6">
                   <div className="bg-primary/20 p-4 rounded-full">
                     <Plane className="w-12 h-12 text-primary" />
