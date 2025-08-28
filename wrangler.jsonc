@@ -1,12 +1,12 @@
 {
-  "main": "src/index.js",
+  "main": "src/main.tsx",
   "name": "spinx-aviation",
   "compatibility_date": "2025-03-25",
   "compatibility_flags": [
     "nodejs_compat"
   ],
   "assets": {
-    "directory": "./out",
+    "directory": "./dist",
     "binding": "ASSETS"
   }
 }
