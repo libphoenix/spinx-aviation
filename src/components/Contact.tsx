@@ -6,8 +6,8 @@ const Contact = () => {
     {
       name: "Mr VARUN YADAV",
       position: "FOUNDER & CEO",
-      phone: "+91 99010 49589",
-      email: "varun_varun62@yahoo.com",
+      phone: "+919901049589",
+      email: "ceo@spinxaviation.com",
     },
   ];
 
@@ -41,12 +41,24 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground">Phone:</span>
-                  <p className="text-sm font-medium">{office.phone}</p>
+                  <p className="text-sm font-medium">
+                    <a
+                      href={`tel:${office.phone}`}
+                      className="hover:text-accent transition-colors"
+                    >
+                      {office.phone}
+                    </a>
+                  </p>
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground">Email:</span>
                   <p className="text-sm font-medium text-accent">
-                    {office.email}
+                    <a
+                      href={`mailto:${office.email}`}
+                      className="hover:text-accent transition-colors"
+                    >
+                      {office.email}
+                    </a>
                   </p>
                 </div>
               </CardContent>
