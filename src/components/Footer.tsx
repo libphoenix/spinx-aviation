@@ -36,22 +36,34 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>
-                <a href="#" className="hover:text-accent transition-colors">
+                <a
+                  href="#aircraft_leasing"
+                  className="hover:text-accent transition-colors"
+                >
                   Aircraft Leasing
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-accent transition-colors">
-                  Fleet Management
+                <a
+                  href="#crew_training"
+                  className="hover:text-accent transition-colors"
+                >
+                  Crew Training
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-accent transition-colors">
+                <a
+                  href="#core_services"
+                  className="hover:text-accent transition-colors"
+                >
                   Aviation Consulting
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-accent transition-colors">
+                <a
+                  href="#core_services"
+                  className="hover:text-accent transition-colors"
+                >
                   Technical Services
                 </a>
               </li>
@@ -62,7 +74,10 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>
-                <a href="#" className="hover:text-accent transition-colors">
+                <a
+                  href="#aboutus"
+                  className="hover:text-accent transition-colors"
+                >
                   About Us
                 </a>
               </li>
@@ -87,7 +102,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
           <p>
-            &copy; 2025 Spinx Aviation
+            &copy; {new Date().getFullYear()} Spinx Aviation
           </p>
           <p>
             All rights reserved
@@ -99,4 +114,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

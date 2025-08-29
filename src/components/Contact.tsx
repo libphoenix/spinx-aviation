@@ -20,7 +20,7 @@ const Contact = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             So become the early adopter with Spinx Aviation and tap into the
-            business opportunities that awaits in the skies of West Africa…
+            business opportunities that awaits in the skies...
           </p>
         </div>
 
@@ -59,4 +59,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

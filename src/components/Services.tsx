@@ -7,22 +7,22 @@ import {
 } from "@/components/ui/card";
 import {
   BarChart3,
+  Building,
+  Calendar,
+  Cog,
+  FileText,
   GraduationCap,
+  Headphones,
   Plane,
+  PlaneTakeoff,
+  SearchCheck,
   Settings,
   Shield,
-  Users,
-  TrendingUp,
-  Building,
-  FileText,
-  SearchCheck,
-  PlaneTakeoff,
-  Calendar,
-  Wrench,
-  ShoppingCart,
-  Cog,
-  Headphones,
   ShieldCheck,
+  ShoppingCart,
+  TrendingUp,
+  Users,
+  Wrench,
 } from "lucide-react";
 import boeing747Image from "@/assets/boeing-747-200f.jpg";
 import boeing737200Image from "@/assets/boeing-737-200f.jpg";
@@ -149,7 +149,7 @@ const Services = () => {
         </div>
 
         {/* Main Services Grid */}
-        <div className="mb-20">
+        <div id="core_services" className="mb-20">
           <h3 className="text-3xl font-bold text-center mb-12 text-primary">
             Core Services
           </h3>
@@ -162,7 +162,9 @@ const Services = () => {
                   className="bg-card/50 backdrop-blur-sm rounded-lg p-4 border border-border/50 hover:shadow-elegant transition-all duration-300 animate-fade-in text-center"
                 >
                   <IconComponent className="w-6 h-6 text-primary mx-auto mb-2" />
-                  <p className="text-sm font-medium text-foreground">{service.name}</p>
+                  <p className="text-sm font-medium text-foreground">
+                    {service.name}
+                  </p>
                 </div>
               );
             })}
@@ -170,7 +172,7 @@ const Services = () => {
         </div>
 
         {/* ACMI/Wet Lease Programme */}
-        <div className="mb-20">
+        <div id="aircraft_leasing" className="mb-20">
           <Card className="shadow-card hover:shadow-elegant transition-all duration-300 border-0 bg-gradient-card">
             <CardHeader className="text-center pb-6">
               <div className="flex justify-center items-center mb-4">
@@ -201,7 +203,7 @@ const Services = () => {
         </div>
 
         {/* Crew Training Programme */}
-        <div className="mb-20">
+        <div id="crew_training" className="mb-20">
           <Card className="shadow-card hover:shadow-elegant transition-all duration-300 border-0 bg-gradient-card">
             <CardHeader className="text-center pb-6">
               <div className="flex justify-center items-center mb-4">
@@ -236,7 +238,7 @@ const Services = () => {
               <div className="bg-card/50 rounded-lg p-6 border border-border/50">
                 <p className="text-muted-foreground leading-relaxed">
                   All trainings are carried out by qualified instructors and
-                  Full Simulator Training on
+                  Full Simulator Training on &nbsp;
                   <span className="font-semibold text-primary">
                     IATA/ESSA/FAA approved simulators
                   </span>. Most training is carried out for our own
@@ -336,4 +338,3 @@ const Services = () => {
 };
 
 export default Services;
-

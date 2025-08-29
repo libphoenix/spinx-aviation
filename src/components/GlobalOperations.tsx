@@ -62,14 +62,13 @@ const GlobalOperations = () => {
                 </h2>
                 <p className="text-base md:text-lg leading-relaxed text-foreground/90">
                   The consensus is that aircraft lessors and financiers are
-                  still reluctant to lease or finance aircraft to African
-                  operators, which are considered high risk relative to other
-                  placement opportunities. This inconsistent setup requires a
-                  significant expenditure on crew training, pilot acquisition
-                  costs, maintenance approvals and programmes etc. Fleet
-                  consistency can help to reduce costs and support a leaner
-                  operation. If an airline has this in place, there will be less
-                  reluctance for leasing and financing opportunities.
+                  still reluctant to lease or finance aircraft to operators
+                  world wide, which are considered high risk. This inconsistent
+                  setup requires a significant expenditure on crew training,
+                  pilot acquisition costs, maintenance approvals and programmes
+                  etc. Fleet consistency can help to reduce costs and support a
+                  leaner operation. If an airline has this in place, there will
+                  be less reluctance for leasing and financing opportunities.
                 </p>
               </div>
 
@@ -116,15 +115,14 @@ const GlobalOperations = () => {
             </h2>
             <div className="bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl p-6 mb-8 backdrop-blur-sm border border-border/50">
               <p className="text-xl md:text-2xl font-semibold text-foreground mb-2">
-                Africa Air Cargo Market Growth
+                Global Air Cargo Market Growth
               </p>
               <p className="text-lg text-muted-foreground">
                 Projected to grow at a{" "}
-                <span className="font-bold text-primary">CAGR of 6.7%</span>
-                {" "}
+                <span className="font-bold text-primary">CAGR of 8%</span>{" "}
                 to reach{" "}
                 <span className="font-bold text-primary">
-                  US$ 27.82 Billion
+                  US$ 223.29 Billion
                 </span>{" "}
                 from 2021 to 2028
               </p>
@@ -140,17 +138,18 @@ const GlobalOperations = () => {
               <div className="flex items-center mb-6">
                 <Globe className="w-8 h-8 text-primary mr-3" />
                 <h3 className="text-2xl md:text-3xl font-bold">
-                  Overview of African Transport and Air Freight Industry
+                  Overview of Global Transport and Air Freight Industry
                 </h3>
               </div>
               <p className="text-base leading-relaxed text-muted-foreground mb-6">
-                Africa's air freight industry presents a unique blend of
-                challenges and opportunities. With vast landmass, a significant
-                portion of the global population, and abundant natural
-                resources, the continent has immense potential for economic
-                growth. However, several factors, including infrastructure
-                limitations and regulatory hurdles, have hindered the industry's
-                full potential.
+                The global air freight industry presents a unique blend of
+                challenges and opportunities with interconnected economies, a
+                growing global population, and diverse flows of goods and
+                resources, the sector has immense potential for driving
+                international trade and economic growth. However, several
+                factors, including infrastructure constraints, regulatory
+                complexities, and evolving market dynamics, continue to hinder
+                the industry from reaching its full potential.
               </p>
             </div>
           </div>
@@ -168,15 +167,18 @@ const GlobalOperations = () => {
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0">
                   </span>
-                  Africa's air freight market currently represents only 1.6% of
-                  Freight Tonne-Kilometers, indicating room for significant
-                  expansion.
+                  The global air freight market accounts for a substantial share
+                  of Freight Tonne-Kilometers, reflecting its critical role in
+                  international trade, while also leaving room for growth in
+                  emerging regions.
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0">
                   </span>
-                  The continent's 54 countries, spanning 30.2 million km², offer
-                  a diverse market with varied demands and challenges.
+                  With nearly 200 countries spanning over 510 million km², the
+                  industry serves highly diverse markets, each with distinct
+                  demands, infrastructure capabilities, and regulatory
+                  frameworks.
                 </li>
               </ul>
             </Card>
@@ -190,45 +192,22 @@ const GlobalOperations = () => {
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0">
                   </span>
-                  Increased connectivity, infrastructure investment, and
-                  regulatory reforms are key drivers.
+                  Increased global connectivity, infrastructure development, and
+                  harmonized regulatory reforms are key drivers of growth in the
+                  air freight industry.
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0">
                   </span>
-                  Initiatives to enhance connectivity and streamline regulatory
-                  processes are critical for attracting global air cargo
-                  players.
+                  Strategic initiatives to enhance cross-border logistics and
+                  streamline regulatory processes are critical for attracting
+                  and retaining international air cargo players.
                 </li>
               </ul>
             </Card>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
-            <Card className="p-6 bg-card/50 backdrop-blur-sm border border-border/50 hover:shadow-elegant transition-all duration-300 animate-fade-in">
-              <div className="flex items-center mb-4">
-                <MapPin className="w-6 h-6 text-primary mr-3" />
-                <h4 className="text-xl font-bold">
-                  Regional Analysis: Togo Ports
-                </h4>
-              </div>
-              <ul className="space-y-3 text-muted-foreground">
-                <li className="flex items-start">
-                  <span className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0">
-                  </span>
-                  Port congestion in Togo is a growing concern due to increased
-                  cargo volume and limited capacity.
-                </li>
-                <li className="flex items-start">
-                  <span className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0">
-                  </span>
-                  Collaboration between government and industry, along with
-                  infrastructure upgrades and technology adoption, aims to
-                  address this issue.
-                </li>
-              </ul>
-            </Card>
-
+          <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 mb-16">
             <Card className="p-6 bg-card/50 backdrop-blur-sm border border-border/50 hover:shadow-elegant transition-all duration-300 animate-fade-in">
               <div className="flex items-center mb-4">
                 <Target className="w-6 h-6 text-primary mr-3" />
@@ -240,14 +219,17 @@ const GlobalOperations = () => {
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0">
                   </span>
-                  Infrastructure Investment: Explore opportunities in airport
-                  infrastructure development and technology adoption.
+                  Infrastructure Investment: Expanding airport capacity and
+                  adopting advanced technologies present major opportunities for
+                  strengthening global air freight operations.
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0">
                   </span>
-                  Collaborative Initiatives: Partnerships between governments,
-                  industry stakeholders, and international organizations.
+                  Collaborative Initiatives: Partnerships among governments,
+                  industry stakeholders, and international organizations are
+                  essential to drive efficiency, standardization, and
+                  sustainable growth.
                 </li>
               </ul>
             </Card>
@@ -256,12 +238,13 @@ const GlobalOperations = () => {
           <div className="mb-20">
             <div className="bg-card/50 backdrop-blur-sm rounded-2xl p-8 border border-border/50 hover:shadow-elegant transition-all duration-300 animate-fade-in">
               <p className="text-base leading-relaxed text-muted-foreground mb-6">
-                Africa's air freight sector, while facing challenges, holds
-                significant promise for growth. Addressing infrastructure
-                deficiencies, regulatory barriers, and adopting technological
-                solutions are crucial steps toward unlocking the industry's
-                fullpotential. Investors and stakeholders are encouraged to
-                explore opportunities within the continent's evolving air freigh
+                The global air freight sector, while navigating ongoing
+                challenges, holds significant promise for sustained growth.
+                Addressing infrastructure constraints, regulatory complexities,
+                and accelerating the adoption of technological solutions are
+                crucial steps toward unlocking the industry’s full potential.
+                Investors and stakeholders are encouraged to explore
+                opportunities within the sector’s rapidly evolving global
                 landscape.
               </p>
             </div>
@@ -280,17 +263,23 @@ const GlobalOperations = () => {
                   <h4 className="text-xl font-bold text-primary">STRENGTHS</h4>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Africa has a solid foundation to support the case for
-                  improving aviation's contribution to its development.
-                  Pre-COVID aviation supported{" "}
                   <span className="font-semibold text-foreground">
-                    7.7 million jobs and $63 billion
+                    Solid economic foundation and scale:
+                  </span>
+                  In 2023, the global aviation sector supported{" "}
+                  <span className="font-semibold text-foreground">
+                    86.5 million jobs and contributed $4.1 trillion
                   </span>{" "}
-                  in economic activity in Africa. Projections are for demand to
-                  {" "}
+                  to the global economy—representing about{" "}
                   <span className="font-semibold text-foreground">
-                    triple over the next two decades
-                  </span>. (IATA, 2023)
+                    3.9% of global GDP.
+                  </span>{" "}
+                  Moreover, aviation carried{"  "}
+                  <span className="font-semibold text-foreground">
+                    33% of global trade by value,
+                  </span>{" "}
+                  facilitating high-value shipments like perishables and medical
+                  supplies
                 </p>
               </Card>
 
@@ -303,12 +292,16 @@ const GlobalOperations = () => {
                   </h4>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Willie Walsh, Director General, IATA says: "Air cargo had a
-                  volatile first quarter. In March, overall demand slipped back
-                  below pre-Covid-19 levels and most of the indicators for the
-                  fundamental drivers of air cargo demand are weak or weakening.
-                  While the trading environment is tough, there is some good
-                  news..." (Logistic Update Africa, 2023)
+                  <span className="font-semibold text-foreground">
+                    Volatile demand trends:
+                  </span>{" "}
+                  While the latter part of 2023 and 2024 saw robust cargo
+                  demand, recent months have shown a slowdown. For instance,
+                  December 2024 demand was up 6.1% from the prior year—but
+                  February 2025 experienced the{" "}
+                  <span className="font-semibold text-foreground">
+                    first year-over-year decline since mid-2023
+                  </span>, as noted by IATA’s Director General Willie Walsh
                 </p>
               </Card>
 
@@ -325,24 +318,31 @@ const GlobalOperations = () => {
                     The Timing is Right
                   </p>
                   <p className="leading-relaxed">
-                    Africa continues the path to recovery from the COVID-19
-                    crisis. Air cargo is{" "}
                     <span className="font-semibold text-foreground">
-                      31.4% over 2019 levels
+                      Strong recovery momentum and rising cargo volumes:
+                    </span>
+                    Full-year 2024 air cargo demand (measured in CTKs) grew{" "}
+                    <span className="font-semibold text-foreground">
+                      11.3%
                     </span>{" "}
-                    and air travel is{" "}
+                    over 2023, exceeding the record levels of 2021. Capacity
+                    (ACTKs) also rose by
                     <span className="font-semibold text-foreground">
-                      93% of 2019 levels
-                    </span>. Full recovery for air travel is expected in 2024.
+                      7.4%
+                    </span>
+                    , signaling renewed strength and growth potential
                   </p>
                   <p className="leading-relaxed">
-                    At the heart of this resurgence is a slate of policy reforms
-                    aimed at liberalizing the aviation industry. Instruments
-                    like the{" "}
                     <span className="font-semibold text-foreground">
-                      Single African Air Transport Market (SAATM)
+                      Passenger traffic recovery feeding cargo growth:
                     </span>{" "}
-                    aim to unify African airspace. (Forbes, 2023)
+                    In 2023, global passenger traffic reached{" "}
+                    <span className="font-semibold text-foreground">
+                      94.1%
+                    </span>{" "}
+                    of 2019 levels, with a strong year-end showing. This
+                    rejuvenation supports belly capacity that reinforces air
+                    cargo operations
                   </p>
                 </div>
               </Card>
@@ -354,13 +354,14 @@ const GlobalOperations = () => {
                   <h4 className="text-xl font-bold text-orange-500">THREATS</h4>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Starting things off with one of the top threats that affect
-                  transportation, according to Statista there were{" "}
                   <span className="font-semibold text-foreground">
-                    4983 truck hijackings between 2018 to 2021
-                  </span>. Not only is this a huge loss for various companies
-                  transporting goods, but it also brings the industry's ability
-                  to move cargo into question. (Supply Chain News Africa, 2023)
+                    External disruptions and geopolitical risks:
+                  </span>{" "}
+                  Events such as geopolitical instability (e.g., Red Sea
+                  disruptions) and trade tensions continue to expose
+                  vulnerabilities in global cargo networks. These challenges can
+                  cause route disruptions, capacity shifts, and unpredictable
+                  demand fluctuations
                 </p>
               </Card>
             </div>
