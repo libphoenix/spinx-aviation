@@ -82,15 +82,6 @@ const Services = () => {
       image: boeing737200Image,
     },
     {
-      model: "B727-200F",
-      payload: "14-15 TONS",
-      cruisingSpeed: "0.78 Mach",
-      range: "1200 Nautical Miles",
-      takeoffLength: "6000 ft",
-      landingLength: "5000 ft",
-      image: boeing727Image,
-    },
-    {
       model: "B737-400F",
       payload: "20 TONS",
       cruisingSpeed: "0.82 Mach",
@@ -107,31 +98,6 @@ const Services = () => {
       takeoffLength: "7500 ft",
       landingLength: "4100 ft",
       image: boeing737300Image,
-    },
-    {
-      model: "FOKKER 27",
-      payload: "7 TONS",
-      cruisingSpeed: "0.34 Mach",
-      range: "900 Nautical Miles",
-      takeoffLength: "4000 ft",
-      landingLength: "3300 ft",
-      image: fokker27Image,
-    },
-    {
-      model: "BAE146-100",
-      configuration: "77 ECONOMY SEATS",
-      cruisingSpeed: "0.73 Mach",
-      range: "1600 Nautical Miles",
-      takeoffLength: "3921 ft",
-      image: bae146100Image,
-    },
-    {
-      model: "BAE146-300",
-      configuration: "110 ECONOMY SEATS",
-      cruisingSpeed: "0.74 Mach",
-      range: "1500 Nautical Miles",
-      takeoffLength: "5000 ft",
-      image: bae146300Image,
     },
   ];
 
