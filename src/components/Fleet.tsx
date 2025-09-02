@@ -15,7 +15,7 @@ const Fleet = () => {
       capacity: "162-189 passengers",
       range: "3,383 miles",
       features: ["Fuel Efficient", "High Reliability", "Global Support"],
-      status: "Available",
+      status: "Upon request",
     },
     {
       model: "Airbus A320neo",
@@ -23,7 +23,7 @@ const Fleet = () => {
       capacity: "140-180 passengers",
       range: "3,500 miles",
       features: ["New Engine Option", "Reduced Emissions", "Advanced Avionics"],
-      status: "Available",
+      status: "Upon request",
     },
     {
       model: "Boeing 787-9",
@@ -31,7 +31,7 @@ const Fleet = () => {
       capacity: "242-290 passengers",
       range: "8,786 miles",
       features: ["Composite Construction", "Enhanced Comfort", "Long Range"],
-      status: "Available",
+      status: "Upon request",
     },
   ];
 
