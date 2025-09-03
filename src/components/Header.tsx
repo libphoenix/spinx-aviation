@@ -17,12 +17,12 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-between rounded-md">
+        <div className="flex items-center justify-center md:justify-between rounded-md">
           <Link to="/" className="flex items-center space-x-3">
             <img
               src={logo}
               alt="Spinx Aviation Logo"
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
           </Link>
 

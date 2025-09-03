@@ -10,7 +10,7 @@ const Footer = () => {
               <img
                 src={logo}
                 alt="Spinx Aviation Logo"
-                className="h-10 w-auto"
+                className="h-12 w-auto"
               />
               <span className="text-xl font-bold">Spinx Aviation</span>
             </div>
